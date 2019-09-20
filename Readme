@@ -1,0 +1,21 @@
+- Ejecutar dentro de la carpeta server:
+  npm install
+  npm start
+
+  nota: Las variables de entorno estan en el archivo .env (no deberia subirse a git pero a mode practico es mas rapido)
+
+  posible optimizacion:
+    crear script para inicializar o actualizar la base de datos, 
+    obteniendo el listado de productos del api de garbarino, recorrer el mismo 
+    y llamar al api de detail, para guardar en un mongo solo una collection, con todos los datos,
+    y no dos collections como hice ahora.
+    en este caso el front solo traeria los datos guardados en mongo.
+
+
+- Ejecutar dentro de la carpeta client:
+  npm install
+  npm start
+
+  nota: Falta mas diseño, utilice material-ui
+    Para crear la aplicacion rapidamente utilice create-react-app
+    Falta la parte de server-side rendering, en caso de ser necesario, me lo piden y acutalizo el repositorio.
