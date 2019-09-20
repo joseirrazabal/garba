@@ -12,7 +12,7 @@
     en este caso el front solo traeria los datos guardados en mongo.
 
 
-- Ejecutar dentro de la carpeta client:
+- Ejecutar dentro de la carpeta front:
   npm install
   npm start
 
